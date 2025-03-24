@@ -137,7 +137,7 @@ python train_model.py
 For Jupyter Notebook users:
 
 jupyter notebook
-# Open tesla_classification_model.ipynb
+**Open tesla_classification_model.ipynb**
 
 
 
