@@ -44,7 +44,7 @@ The chart below illustrates Tesla's historical stock price movements, highlighti
 ## Feature Selection 
 To enhance the model's performance, a **correlation matrix** was used to identify highly correlated features. Features that had strong multicollinearity were considered redundant and removed. 
 
-- **Before Feature Selection**: The dataset contained 71 features, leading to potential overfitting and redundancy.
+- **Before Feature Selection**: The dataset contained **71** features, leading to potential overfitting and redundancy.
 - **After Feature Selection**: The number of features was reduced to **14**, ensuring that only the most informative variables were retained for model training.
 
 
