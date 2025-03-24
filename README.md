@@ -55,6 +55,52 @@ The correlation matrix below shows a number of highly correlated features.
 
 Compared multiple classification models (e.g., Logistic Regression, Random Forest, XGBoost) and select the best-performing one. The champion model was XGBoost with the score metrics in the below table 
 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model</th>
+      <th>F1</th>
+      <th>Recall</th>
+      <th>Precision</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>XGBoost Cross Validated</td>
+      <td>0.647484</td>
+      <td>0.649768</td>
+      <td>0.645344</td>
+      <td>0.643433</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Random Forest Cross Validation</td>
+      <td>0.641767</td>
+      <td>0.645584</td>
+      <td>0.638689</td>
+      <td>0.636778</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 
 
