@@ -58,8 +58,11 @@ Compared multiple classification models (e.g., Logistic Regression, Random Fores
 ![image](https://github.com/user-attachments/assets/2a5d9ad5-0ed9-4549-909f-37409146f24b)
 
 F1 score final XGB model:  0.652542372881356
+
 Recall score final XGB model:  0.6567164179104478
+
 Precision score final XGB model:  0.6484210526315789
+
 Accuracy score final XGB model:  0.6554621848739496
 
 The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 65.5% accuracy and 65.2% F1 score. 
