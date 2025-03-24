@@ -67,15 +67,8 @@ The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jon
 ![image](https://github.com/user-attachments/assets/eb78f37d-8474-44fd-9f29-2d72031dbae3)
 
 Below is a table of the model results so far predicted and actual 
-1 - Increase
-0 - Decrease
 
-Date	Predicted_Label	Actual_Label
-2025-03-18	1	0
-2025-03-19	1	1
-2025-03-20	1	1
-2025-03-21	1	1
-2025-03-24	1	<img width="222" alt="image" src="https://github.com/user-attachments/assets/4be48693-6578-4926-96af-95da1e7f9416" />
+<img width="222" alt="image" src="https://github.com/user-attachments/assets/4be48693-6578-4926-96af-95da1e7f9416" />
 
 **Latest Prediction**
 Prediction: Tesla's stock price is expected to INCREASE tomorrow with 82.33% confidence.
