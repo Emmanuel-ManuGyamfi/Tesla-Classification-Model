@@ -45,7 +45,7 @@ The chart below illustrates Tesla's historical stock price movements, highlighti
 To enhance the model's performance, a **correlation matrix** was used to identify highly correlated features. Features that had strong multicollinearity were considered redundant and removed. 
 
 - **Before Feature Selection**: The dataset contained **71** features, leading to potential overfitting and redundancy.
-- **After Feature Selection**: The number of features was reduced to **14**, ensuring that only the most informative variables were retained for model training.
+- **After Feature Selection**: The number of features was reduced to **12**, ensuring that only the most informative variables were retained for model training.
 
 The correlation matrix below shows a number of highly correlated features.
 
@@ -55,39 +55,14 @@ The correlation matrix below shows a number of highly correlated features.
 
 Compared multiple classification models (e.g., Logistic Regression, Random Forest, XGBoost) and select the best-performing one. The champion model was XGBoost with the score metrics in the below table 
 
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Model</th>
-      <th>F1</th>
-      <th>Recall</th>
-      <th>Precision</th>
-      <th>Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>XGBoost Cross Validated</td>
-      <td>0.647484</td>
-      <td>0.649768</td>
-      <td>0.645344</td>
-      <td>0.643433</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Random Forest Cross Validation</td>
-      <td>0.641767</td>
-      <td>0.645584</td>
-      <td>0.638689</td>
-      <td>0.636778</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![image](https://github.com/user-attachments/assets/2a5d9ad5-0ed9-4549-909f-37409146f24b)
 
+F1 score final XGB model:  0.652542372881356
+Recall score final XGB model:  0.6567164179104478
+Precision score final XGB model:  0.6484210526315789
+Accuracy score final XGB model:  0.6554621848739496
 
+The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 86% accuracy and 72% precision. 
 
-
+![image](https://github.com/user-attachments/assets/eb78f37d-8474-44fd-9f29-2d72031dbae3)
 
