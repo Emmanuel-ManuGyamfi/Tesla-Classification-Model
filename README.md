@@ -9,4 +9,4 @@ Stock market movements are influenced by multiple factors, including past price 
 ## Data Understanding 
 The Tesla and Market Data came from **[Yahoo Finance - Tesla Historical Data](https://finance.yahoo.com/quote/TSLA/history/)**. The Macroeconomic indicators data came from **FRED - (https://fred.stlouisfed.org/series)** The data consisted of approximately 3.8k dates from when Tesla was first listed on the stock market in 2010 and over 70 features to begin with. The price movement of the Tesla stock is fairly balanced over this time, almost an even split. 
 
-            ![image](https://github.com/user-attachments/assets/b2eb1809-4fb7-4c3d-96a3-fa92e76039a4)
+![image](https://github.com/user-attachments/assets/b2eb1809-4fb7-4c3d-96a3-fa92e76039a4)
