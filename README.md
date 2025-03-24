@@ -102,3 +102,42 @@ Prediction: Tesla's stock price is expected to INCREASE tomorrow with 82.33% con
 This project successfully demonstrates the potential of machine learning in predicting Tesla's stock price movements. The model provides a data-driven approach to stock price forecasting, helping investors and analysts make informed decisions.
 
 However, stock prices are influenced by multiple external factors such as market news, economic changes, and global events, which are not always captured in historical data. Future improvements, such as adding sentiment analysis, implementing deep learning models (e.g. LTSM) and enhanced feature engineering, could further improve prediction accuracy and adaptability to market trends.
+
+## Installation
+
+Clone this repository:
+
+git clone https://github.com/emmanuel-mgyamfi/tesla-classification-model.git
+cd tesla-classification-model
+
+Install the required dependencies:
+
+pip install -r requirements.txt
+
+## Technologies Used
+
+Python 3.11
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+XGBoost
+
+Matplotlib / Seaborn
+
+## Usage
+
+Run the following command to train the model:
+
+python train_model.py
+
+For Jupyter Notebook users:
+
+jupyter notebook
+# Open tesla_classification_model.ipynb
+
+
+
