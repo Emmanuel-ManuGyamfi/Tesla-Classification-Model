@@ -73,7 +73,6 @@ Below is a table of the model results so far predicted and actual
 
 <img width="222" alt="image" src="https://github.com/user-attachments/assets/89a7b126-9123-48d2-b519-c48ecae3a8c7" />
 
-
 **Latest Prediction**
 
 Prediction: Tesla's stock price is expected to INCREASE tomorrow with 82.33% confidence.
