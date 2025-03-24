@@ -62,7 +62,46 @@ Recall score final XGB model:  0.6567164179104478
 Precision score final XGB model:  0.6484210526315789
 Accuracy score final XGB model:  0.6554621848739496
 
-The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 86% accuracy and 72% precision. 
+The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 65.5% accuracy and 65.2% F1 score. 
 
 ![image](https://github.com/user-attachments/assets/eb78f37d-8474-44fd-9f29-2d72031dbae3)
 
+Below is a table of the model results so far predicted and actual 
+1 - Increase
+0 - Decrease
+
+Date	Predicted_Label	Actual_Label
+2025-03-18	1	0
+2025-03-19	1	1
+2025-03-20	1	1
+2025-03-21	1	1
+2025-03-24	1	<img width="222" alt="image" src="https://github.com/user-attachments/assets/4be48693-6578-4926-96af-95da1e7f9416" />
+
+**Latest Prediction**
+Prediction: Tesla's stock price is expected to INCREASE tomorrow with 82.33% confidence.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Predicted_Label</th>
+      <th>Actual_Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2025-03-24</td>
+      <td>1</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+## Conclusion 
+
+This project successfully demonstrates the potential of machine learning in predicting Tesla's stock price movements. The model provides a data-driven approach to stock price forecasting, helping investors and analysts make informed decisions.
+
+However, stock prices are influenced by multiple external factors such as market news, economic changes, and global events, which are not always captured in historical data. Future improvements, such as adding sentiment analysis, implementing deep learning models (e.g. LTSM) and enhanced feature engineering, could further improve prediction accuracy and adaptability to market trends.
