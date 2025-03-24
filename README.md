@@ -47,4 +47,15 @@ To enhance the model's performance, a **correlation matrix** was used to identif
 - **Before Feature Selection**: The dataset contained **71** features, leading to potential overfitting and redundancy.
 - **After Feature Selection**: The number of features was reduced to **14**, ensuring that only the most informative variables were retained for model training.
 
+The correlation matrix below shows a number of highly correlated features.
+
+![image](https://github.com/user-attachments/assets/a2e6ceeb-cec0-4bb5-abbe-1313148c8933)
+
+## Modelling and Evaluation 
+
+Compared multiple classification models (e.g., Logistic Regression, Random Forest, XGBoost) and select the best-performing one. The champion model was XGBoost with the score metrics in the below table 
+
+
+
+
 
