@@ -11,15 +11,7 @@ The Tesla and Market Data came from **[Yahoo Finance - Tesla Historical Data](ht
 
 ![image](https://github.com/user-attachments/assets/b2eb1809-4fb7-4c3d-96a3-fa92e76039a4)
 
-## EDA - Analysis, Feature Engineering, Feature Selection and Visualisations
-The chart below illustrates Tesla's historical stock price movements, highlighting key price levels:
-
-- **Blue Line**: Tesla's closing stock prices over time.
-- **Red Dashed Line**: Tesla's all-time high price ($479.86).
-- **Green Dashed Line**: Tesla's closing price on the most recent trading day ($248.71 on 2025-03-21).
-
-![image](https://github.com/user-attachments/assets/a11b24ad-5875-494f-9ab5-a2010f11d3fe)
-
+## Feature Engineering
 Feature engineered a number of economic indicators 
 #### Creating Economic Technical Indicators
 * **SMA** (**Simple Moving Average**): The average closing price over a set period (e.g., 5 or 10 days) to smooth out price fluctuations and identify trends.
@@ -37,3 +29,22 @@ Feature engineered a number of economic indicators
 * **MACD Signal Line**: A 9-day EMA of the MACD that helps confirm trend changes when crossed by the MACD line.
 
 * **ROC** (**Rate of Change**, 14-day): A momentum indicator that shows the percentage change in price over the last 14 days, indicating strength or weakness in the trend.
+
+## Exploratory Data Analysis
+Visualised trends, identified patterns, and understood correlations between features for feature selection.
+
+The chart below illustrates Tesla's historical stock price movements, highlighting key price levels:
+
+- **Blue Line**: Tesla's closing stock prices over time.
+- **Red Dashed Line**: Tesla's all-time high price ($479.86).
+- **Green Dashed Line**: Tesla's closing price on the most recent trading day ($248.71 on 2025-03-21).
+
+![image](https://github.com/user-attachments/assets/a11b24ad-5875-494f-9ab5-a2010f11d3fe)
+
+## Feature Selection 
+To enhance the model's performance, a **correlation matrix** was used to identify highly correlated features. Features that had strong multicollinearity were considered redundant and removed. 
+
+- **Before Feature Selection**: The dataset contained 71 features, leading to potential overfitting and redundancy.
+- **After Feature Selection**: The number of features was reduced to **14**, ensuring that only the most informative variables were retained for model training.
+
+
