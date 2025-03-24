@@ -1,7 +1,5 @@
 # Predicting Tesla (TSLA) Stock Price Movement
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edigitalagency.com.au%2Flogos%2Fnew-tesla-logo-red-png%2F&psig=AOvVaw0gJZTbq6lIH1OrfE3ms4MT&ust=1742941707827000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiE6fzho4wDFQAAAAAdAAAAABAQ![image](https://github.com/user-attachments/assets/e70f2643-a3c5-41cf-8856-462a5497fda5)
-
 ## Overview
 The goal of the project is to create a predictive model that forecasts Tesla stock price movements based on historical market data and various financial indicators. By using machine learning techniques, the model classifies whether the stock price will increase or decrease on the following trading day. The final XGBoost model performed with 65.5% accuracy and 65.2% F1 score.
 
