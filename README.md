@@ -1,7 +1,7 @@
 # Predicting Tesla (TSLA) Stock Price Movement
 
 ## Overview
-The goal of the project is to create a predictive model that forecasts Tesla stock price movements based on historical market data and various financial indicators. By using machine learning techniques, the model classifies whether the stock price will increase or decrease on the following trading day. The final XGBoost model performed with 65.5% accuracy and 65.2% F1 score.
+The goal of the project is to create a predictive model that forecasts Tesla stock price movements based on historical market data and various financial indicators. By using machine learning techniques, the model classifies whether the stock price will increase or decrease on the following trading day. The final XGBoost model performed with 69.6% accuracy and 69.1% F1 score.
 
 ## Business Understanding
 Stock market movements are influenced by multiple factors, including past price trends, market sentiment, and economic indicators. Tesla stocks has seen a lot of price movement recently. With frequent price swings and high investor interest, predicting Tesla's short-term stock movements presents both challenges and opportunities. 
@@ -57,15 +57,15 @@ Compared multiple classification models (e.g., Logistic Regression, Random Fores
 
 ![image](https://github.com/user-attachments/assets/2a5d9ad5-0ed9-4549-909f-37409146f24b)
 
-F1 score final XGB model:  0.652542372881356
+F1 score final XGB model:  0.6914893617021277
 
-Recall score final XGB model:  0.6567164179104478
+Recall score final XGB model:  0.7352941176470589
 
-Precision score final XGB model:  0.6484210526315789
+Precision score final XGB model:  0.6526104417670683
 
-Accuracy score final XGB model:  0.6554621848739496
+Accuracy score final XGB model:  0.6960167714884696
 
-The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 65.5% accuracy and 65.2% F1 score. 
+The below plot shows that MACD, RS1 14 and Volume_^DJI(Trading volume of Dow Jones Industrial Average) were the Top 3 most important factors in determining whether the Tesla Stock Price will Increase or Decrease for that trading day. The overall model performed with 69.6% accuracy and 69.1% F1 score. 
 
 ![image](https://github.com/user-attachments/assets/eb78f37d-8474-44fd-9f29-2d72031dbae3)
 
