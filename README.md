@@ -55,7 +55,7 @@ The correlation matrix below shows a number of highly correlated features.
 
 Compared multiple classification models (e.g., Logistic Regression, Random Forest, XGBoost) and select the best-performing one. The champion model was XGBoost with the score metrics in the below table 
 
-![image](https://github.com/user-attachments/assets/2a5d9ad5-0ed9-4549-909f-37409146f24b)
+![image](https://github.com/user-attachments/assets/e827d654-d520-40e6-bc4a-b8c50763a1b4)
 
 F1 score final XGB model:  0.6914893617021277
 
